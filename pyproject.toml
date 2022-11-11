@@ -1,25 +1,3 @@
-# [project]
-# name = "discord-bot"
-# version = "1.1.1"
-# description = "Discord bot pyproject.toml"
-# authors = [
-#     {name = "Beff Jezos", email="beff@jamazon.crom"}
-# ]
-# license = {file = "LICENSE.txt"}
-# readme = "README.md"
-# requires-python = ">=3.6"
-# 
-# keywords = ["packaging", "dependency", "infer", "pyproject.toml"]
-# 
-# classifiers = [
-#     "Topic :: Software Development"
-# ]
-# 
-# [project.urls]
-# homepage = "https://pornhub.com/"
-# documentation = "https://pornhub.com/"
-# repository = "https://pornhub.com/"
-
 [project.scripts]
 poetry = "infer_pyproject.cli:main"
 
