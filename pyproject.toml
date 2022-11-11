@@ -1,0 +1,44 @@
+# [project]
+# name = "discord-bot"
+# version = "1.1.1"
+# description = "Discord bot pyproject.toml"
+# authors = [
+#     {name = "Beff Jezos", email="beff@jamazon.crom"}
+# ]
+# license = {file = "LICENSE.txt"}
+# readme = "README.md"
+# requires-python = ">=3.6"
+# 
+# keywords = ["packaging", "dependency", "infer", "pyproject.toml"]
+# 
+# classifiers = [
+#     "Topic :: Software Development"
+# ]
+# 
+# [project.urls]
+# homepage = "https://pornhub.com/"
+# documentation = "https://pornhub.com/"
+# repository = "https://pornhub.com/"
+
+[project.scripts]
+poetry = "infer_pyproject.cli:main"
+
+[build-system]
+requires = [
+    "setuptools >= 65.5",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "discord-bot"
+version = "1.1.1"
+description = ""
+authors = [
+    "Beff Jezos <beff@jamazon.crom>"
+]
+license = "LICENSE.txt"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+"discord.py" = ">=2.0,<2.1"
