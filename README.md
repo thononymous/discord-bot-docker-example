@@ -1,5 +1,7 @@
 # Discord bot
 
+_For a dear friend_ 
+
 ## Building
 
 ```
